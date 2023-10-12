@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OldMutual.Service.Interface
+namespace OldMutual.Test
 {
-    public interface ISource
+    class TestDestination
     {
-        char GetChar();
     }
 }

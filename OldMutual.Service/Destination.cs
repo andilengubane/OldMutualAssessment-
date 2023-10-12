@@ -10,7 +10,8 @@ namespace OldMutual.Service
     public class Destination : IDestination
     {
         public void SetChar(char character)
-        { 
+        {
+            char[] destination = { 'a', 'b', 'c' };
         }
     }
 }

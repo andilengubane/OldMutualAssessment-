@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace OldMutual.Service.Interface
 {
-    interface IDestination
+    public interface IDestination
     {
+        void SetChar(char character);
     }
 }
