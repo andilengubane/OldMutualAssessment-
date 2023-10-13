@@ -1779,6 +1779,29 @@
         "build": {
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
+      },
+      "OldMutual.Portal/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "NSubstitute": "5.1.0"
+        },
+        "compile": {
+          "bin/placeholder/OldMutual.Portal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OldMutual.Portal.dll": {}
+        }
+      },
+      "OldMutual.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/OldMutual.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OldMutual.Service.dll": {}
+        }
       }
     }
   },
@@ -6212,6 +6235,16 @@
         "xunit.runner.visualstudio.2.4.3.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "OldMutual.Portal/1.0.0": {
+      "type": "project",
+      "path": "../OldMutual.Portal/OldMutual.Portal.csproj",
+      "msbuildProject": "../OldMutual.Portal/OldMutual.Portal.csproj"
+    },
+    "OldMutual.Service/1.0.0": {
+      "type": "project",
+      "path": "../OldMutual.Service/OldMutual.Service.csproj",
+      "msbuildProject": "../OldMutual.Service/OldMutual.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6219,6 +6252,8 @@
       "Microsoft.NET.Test.Sdk >= 16.9.4",
       "NSubstitute >= 5.1.0",
       "NSubstitute.Analyzers.CSharp >= 1.0.16",
+      "OldMutual.Portal >= 1.0.0",
+      "OldMutual.Service >= 1.0.0",
       "coverlet.collector >= 3.0.2",
       "xunit >= 2.4.1",
       "xunit.runner.visualstudio >= 2.4.3"
@@ -6260,7 +6295,14 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\OldMutual\\OldMutual.Portal\\OldMutual.Portal\\OldMutual.Portal.csproj": {
+              "projectPath": "C:\\OldMutual\\OldMutual.Portal\\OldMutual.Portal\\OldMutual.Portal.csproj"
+            },
+            "C:\\OldMutual\\OldMutual.Portal\\OldMutual.Service\\OldMutual.Service.csproj": {
+              "projectPath": "C:\\OldMutual\\OldMutual.Portal\\OldMutual.Service\\OldMutual.Service.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,12 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Xunit;
+using System;
+using NSubstitute;
+using OldMutual.Service.Interface;
 
 namespace OldMutual.Test
 {
-    class TestDestination
+    public class TestDestination
     {
+        [Fact]
+        public static void Destination()
+        {
+            var destination = Substitute.For<IDestination>();
+        }
     }
 }

@@ -1,5 +1,7 @@
-﻿using System;
-using Xunit;
+﻿using Xunit;
+using System;
+using NSubstitute;
+using OldMutual.Service.Interface;
 
 namespace OldMutual.Test
 {
@@ -7,8 +9,8 @@ namespace OldMutual.Test
     {
         [Fact]
         public static void Source()
-        { 
-        
+        {
+            var source = Substitute.For<ISource>();
         }
     }
 }
