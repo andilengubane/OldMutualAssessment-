@@ -1,12 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Collections.Generic;
 
 namespace OldMutual.Service.Interface
 {
-    interface IDestination
+    public interface IDestination
     {
+        void SetChar(char character);
     }
 }

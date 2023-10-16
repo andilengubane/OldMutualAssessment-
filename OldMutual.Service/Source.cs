@@ -1,12 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Collections.Generic;
+using OldMutual.Service.Interface;
 
 namespace OldMutual.Service
 {
-    class Source
+    public class Source : ISource 
     {
+        public char[] GetChar() {
+            char[] source = { 'a', 'b', 'c', '\n' };
+            return source;
+        }
     }
 }

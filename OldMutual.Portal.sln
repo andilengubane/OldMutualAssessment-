@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OldMutual.Service", "OldMut
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OldMutual.DTO", "OldMutual.DTO\OldMutual.DTO.csproj", "{AD81FCBB-64ED-4422-9F15-22A655C48CE0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OldMutual.Test", "OldMutual.Test\OldMutual.Test.csproj", "{2A9AED6C-CE2D-4407-B4D2-A5AA4EBADF9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{AD81FCBB-64ED-4422-9F15-22A655C48CE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD81FCBB-64ED-4422-9F15-22A655C48CE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD81FCBB-64ED-4422-9F15-22A655C48CE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A9AED6C-CE2D-4407-B4D2-A5AA4EBADF9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A9AED6C-CE2D-4407-B4D2-A5AA4EBADF9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A9AED6C-CE2D-4407-B4D2-A5AA4EBADF9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A9AED6C-CE2D-4407-B4D2-A5AA4EBADF9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
