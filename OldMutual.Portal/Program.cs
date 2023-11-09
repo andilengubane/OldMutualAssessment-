@@ -1,35 +1,30 @@
-﻿using System;
+﻿using OldMutual.Service;
+using OldMutual.Service.Interface;
+using System;
 
 namespace OldMutual.Portal
 {
     class Program
     {
+       public static IDestination _destination = new Destination();
+       
         static void Main(string[] args)
         {
-             
-            
-            string strSource = "changed";
-            char[] destination = { 'T', 'h', 'e', ' ', 'i', 'n', 'i', 't', 'i', 'a', 'l', ' ', 'a', 'r', 'r', 'a', 'y' };
+            string strSource = " change ";
+            char[] destinationValue = { 'T', 'h', 'e', ' ', 'r', 'e', 's', 'u', 'l', 't', ' ', 's', 'e', 't', ' ', 'a','r','r','a','y' };
 
+            Console.WriteLine(_destination.SetChar(destinationValue));
 
-            IDestination.SetChar(destination);
-            // Print the char array
-            Console.WriteLine(destination);
+            strSource.CopyTo(0, destinationValue, 3, strSource.Length);
 
-            // Embed the source string in the destination string
-            strSource.CopyTo(0, destination, 4, strSource.Length);
+            Console.WriteLine(destinationValue);
 
-            // Print the resulting array
-            Console.WriteLine(destination);
+            strSource = " Result Output";
 
-            strSource = "A different string";
-
-            // Embed only a section of the source string in the destination
-            strSource.CopyTo(2, destination, 3, 9);
-
-            // Print the resulting array
-            Console.WriteLine(destination);
-
+            strSource.CopyTo(0, destinationValue, 3, 14);
+           
+            Console.WriteLine(destinationValue);
+            Console.ReadKey();
         }
     }
 }
