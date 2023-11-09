@@ -8,6 +8,10 @@ namespace OldMutual.Service.Interface
 {
     public interface IDestination
     {
+<<<<<<< HEAD
          void SetChar(char[] character);
+=======
+     char[] SetChar(char[] character);
+>>>>>>> development
     }
 }

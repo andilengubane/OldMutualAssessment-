@@ -35,7 +35,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\OldMutual\\OldMutual.Portal\\OldMutual.Service\\OldMutual.Service.csproj": {
+                "projectPath": "C:\\OldMutual\\OldMutual.Portal\\OldMutual.Service\\OldMutual.Service.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

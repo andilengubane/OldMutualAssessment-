@@ -1,0 +1,12 @@
+C:\OldMutual\OldMutual.Portal\OldMutual.Service\bin\Debug\net5.0\OldMutual.Service.deps.json
+C:\OldMutual\OldMutual.Portal\OldMutual.Service\bin\Debug\net5.0\OldMutual.Service.dll
+C:\OldMutual\OldMutual.Portal\OldMutual.Service\bin\Debug\net5.0\ref\OldMutual.Service.dll
+C:\OldMutual\OldMutual.Portal\OldMutual.Service\bin\Debug\net5.0\OldMutual.Service.pdb
+C:\OldMutual\OldMutual.Portal\OldMutual.Service\obj\Debug\net5.0\OldMutual.Service.csproj.AssemblyReference.cache
+C:\OldMutual\OldMutual.Portal\OldMutual.Service\obj\Debug\net5.0\OldMutual.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\OldMutual\OldMutual.Portal\OldMutual.Service\obj\Debug\net5.0\OldMutual.Service.AssemblyInfoInputs.cache
+C:\OldMutual\OldMutual.Portal\OldMutual.Service\obj\Debug\net5.0\OldMutual.Service.AssemblyInfo.cs
+C:\OldMutual\OldMutual.Portal\OldMutual.Service\obj\Debug\net5.0\OldMutual.Service.csproj.CoreCompileInputs.cache
+C:\OldMutual\OldMutual.Portal\OldMutual.Service\obj\Debug\net5.0\OldMutual.Service.dll
+C:\OldMutual\OldMutual.Portal\OldMutual.Service\obj\Debug\net5.0\ref\OldMutual.Service.dll
+C:\OldMutual\OldMutual.Portal\OldMutual.Service\obj\Debug\net5.0\OldMutual.Service.pdb

@@ -1784,7 +1784,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "NSubstitute": "5.1.0"
+          "NSubstitute": "5.1.0",
+          "OldMutual.Service": "1.0.0"
         },
         "compile": {
           "bin/placeholder/OldMutual.Portal.dll": {}
