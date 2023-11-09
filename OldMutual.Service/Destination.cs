@@ -9,16 +9,9 @@ namespace OldMutual.Service
 {
     public class Destination : IDestination
     {
-<<<<<<< HEAD
-        public void SetChar(char[] character)
-        {
-            char[] destination = { 'a', 'b', 'c' };
-        } 
-=======
         public char[] SetChar(char[] character)
         {
             return character;
         }
->>>>>>> development
     }
 }
