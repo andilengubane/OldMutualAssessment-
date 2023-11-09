@@ -19,14 +19,9 @@ namespace OldMutual.Portal
 
             Console.WriteLine(destinationValue);
 
-<<<<<<< HEAD
-
-            strSource = " Result Output";
-=======
             strSource = "A different string";
 
             strSource.CopyTo(2, destinationValue, 3, 9);
->>>>>>> development
 
             Console.WriteLine(destinationValue);
             Console.ReadKey();
